@@ -1,0 +1,354 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Alpha.images/Alpha\ backgroun.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+    
+}
+#menu{
+    display: none;
+}
+#headersection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#headersection #left h1{
+    font-size: 15px;
+}
+#headersection #right ul{
+    display: flex;
+   gap: 20px;
+   align-items: center;
+   list-style-type: none;
+ 
+}
+#headersection #right ul li button{
+width: 100px;
+height: 30px;
+border-radius: 8px;
+background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+#headersection #left h1 span{
+font-weight: 100;
+}
+#bodysection {
+    text-align: center;
+   margin-top: 137px;
+    color: white;
+}
+#bodysection h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+#bodysection p1{
+font-size: 40px;
+
+}
+#bodysection button{
+     width: 214px;
+    height: 61px;;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    margin-right: 20px;
+}
+#bodysection #learnmore{
+background-color: transparent;
+color: white;
+border: 2px solid white;
+}
+#contentsection{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
+   border-radius: 5px;
+   margin-top:140px ;
+   color:#727272  ;
+
+}
+#contentsection h1{
+    font-size: 35px;
+    font-weight: 50;
+}
+#contentsection p{
+    font-size: 20px;
+    color: #9f9ba9;
+    border-top: 2px solid #e5e5e5;
+ padding-top: 20px;
+    width:72%; 
+      margin: auto;
+      padding-bottom: 60px;
+
+}
+#contentsection img{
+    width: 100%;
+    border-radius: 10px;
+}
+#iconsection
+{
+width: 66%;
+background-color: white;
+margin: auto;
+margin-top: 30px;
+border-radius: 5px;
+color: #727272;
+}
+#iconsection div div{
+   
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+
+}
+#iconsection div
+{
+   padding-top: 20px ;
+   padding-left:5px ;
+}
+.fa.fa-bolt{
+    
+    background-color: #e89980;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    padding: 20px 30px;
+   
+}
+.fa.fa-area-chart
+{
+    background-color:#7fcdb8;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    padding: 20px 20px;
+   
+}
+.fa.fa-cloud
+{
+    background-color:#90b0ba;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    padding: 20px 20px;
+}
+.fa.fa-lock
+{
+    background-color: #e5cb95;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    padding: 20px 30px;
+}
+#iconsection div h3{
+    font-size: 30px;
+    font-weight: 100;
+ 
+}
+#iconsection div p
+{
+font-size: 15px;
+}
+#iconsection #div1
+{
+    border-right: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    position: relative; /* for content Changing*/
+    left: 2.5px;
+    top: 1.5px;
+    
+}
+#iconsection #div4
+{
+    border-left: 2px solid gainsboro;
+    border-top: 2px solid gainsboro;
+}
+#imagesection
+{
+    width: 65%;
+    margin: auto;
+    color: #8a8a8a;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#imagesection div
+{
+    width: 48%;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#imagesection div img
+{
+width: 100%;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+#imagesection div h1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 100;
+}
+#imagesection div button
+{
+    background-color:white ;
+    width: 130px;
+    height: 50px;
+    border: 2px solid #e9e9e9;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#signupsection 
+{
+   
+    background-color: #e89980;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+     justify-content: center;
+    text-align: center;
+  
+}
+#signupsection  h1{
+    font-size: 40px;
+  padding-top: 50px;
+    color:#f8e2db ;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+#signupsection p{
+    margin-top: 30px;
+    text-align: center;
+    color:#f8e2db ;
+}
+#signupsection input
+{
+    margin-top: 30px;
+    margin-right: 20px;
+   width: 300px;
+   height: 50px;
+    background-color: #eba893;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+padding-left: 15px;
+}
+#signupsection button
+{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+   border: none;
+   color: #eba893;
+   font-size: 15px;
+
+}
+::placeholder
+{
+    color:#f0d5d0;
+}
+#footersection #lll
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 30px;
+    gap: 25px;
+    color: #bbb8b8;
+}
+#footersection #kkk
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-top: 25px;
+   font-size: 10px;
+   margin-bottom: 80px;
+   gap: 20px;
+   color: #bebfc4;
+   
+   
+   
+}
+#footersection #kkk h2{
+    font-weight: 200;
+    border-right: 2px ;
+}
+
+
+/* ======mobile version========= */
+@media(max-width:600px){
+    #menu{
+        display: inline-block;
+        color: white;
+      
+        background-color:#bdbabb ;
+        padding: 5px;
+        border-radius: 5px;
+        
+    }
+    #headersection{
+    display: none;
+    }
+    body{
+        background-size: 190%;
+        background-position-x: center;
+       
+    }
+    #bodysection{
+        width:100% ;
+        margin: auto;padding-left: 50px;
+       
+       
+    }
+    #bodysection h1{
+       font-size: 32px;
+       text-align: center;
+       
+    }
+    #bodysection button{
+        width: 100%;
+       height: 45px;;
+      margin-bottom: 30px;
+      
+   }
+   #contentsection {
+    font-size: 25px;
+    width: 100%;
+   margin-top:0px ;
+   padding-top: 30px;
+   
+  
+   }
+   br{
+    display: none;
+   }
+   #contentsection h1{
+    font-size: 27px;
+   }
+   #contentsection p{
+    font-size: 20px;
+    width:90%; 
+      margin: auto;
+      padding-bottom: 50px;
+
+}
+}
